@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_home"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_aromantic"
+                android:icon="@drawable/ic_menu_aromantic"
+                android:title="@string/menu_aromantic"/>
+        <item
+                android:id="@+id/nav_saplings"
+                android:icon="@drawable/sapling"
+                android:title="@string/menu_saplings"/>
+        <item
+                android:id="@+id/nav_cereals"
+                android:icon="@drawable/cereal"
+                android:title="@string/menu_cereals"/>
+        <item
+                android:id="@+id/nav_seeds"
+                android:icon="@drawable/seedicon"
+                android:title="@string/menu_seeds"/>
+    </group>
+
+</menu>
